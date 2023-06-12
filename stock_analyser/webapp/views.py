@@ -20,3 +20,12 @@ def About(request):
 
 def Contact(request):
     return render(request, 'contact.html')
+
+def Blog(request):
+    return render(request, 'blog.html')
+
+def Guide(request):
+    return render(request, 'guide.html')
+
+def Support(request):
+    return render(request, 'support.html')
