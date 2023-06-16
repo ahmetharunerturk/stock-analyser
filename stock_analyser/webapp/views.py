@@ -29,3 +29,6 @@ def Guide(request):
 
 def Support(request):
     return render(request, 'support.html')
+
+def Register(request):
+    return render(request, 'register.html')
