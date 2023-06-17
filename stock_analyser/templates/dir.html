@@ -333,13 +333,10 @@
           community of successful investors and start making more informed and profitable decisions today!
         </p>
         <div class="d-inline-flex gap-2 mb-5">
-          <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
-            <a href="{% url 'Register' %}" target="_blank" rel="noopener noreferrer">Try to Free!</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-              class="bi bi-hourglass-top" viewBox="0 0 16 16">
-              <path
-                d="M2 14.5a.5.5 0 0 0 .5.5h11a.5.5 0 1 0 0-1h-1v-1a4.5 4.5 0 0 0-2.557-4.06c-.29-.139-.443-.377-.443-.59v-.7c0-.213.154-.451.443-.59A4.5 4.5 0 0 0 12.5 3V2h1a.5.5 0 0 0 0-1h-11a.5.5 0 0 0 0 1h1v1a4.5 4.5 0 0 0 2.557 4.06c.29.139.443.377.443.59v.7c0 .213-.154.451-.443.59A4.5 4.5 0 0 0 3.5 13v1h-1a.5.5 0 0 0-.5.5zm2.5-.5v-1a3.5 3.5 0 0 1 1.989-3.158c.533-.256 1.011-.79 1.011-1.491v-.702s.18.101.5.101.5-.1.5-.1v.7c0 .701.478 1.236 1.011 1.492A3.5 3.5 0 0 1 11.5 13v1h-7z" />
-            </svg>
+          <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+            <a href="{% url 'Register' %}" class="">
+              Try for Free
+            </a>
           </button>
           <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
             <a href="{% url 'FAQs' %}">
@@ -352,7 +349,8 @@
 
     <br>
     <hr class="hr" />
-    <footer class="py-5">
+
+    <footer class="py-2">
       <div class="row">
         <div class="col-6 col-md-2 mb-3">
           <h5>Menu</h5>
@@ -407,17 +405,15 @@
         </div>
       </div>
 
-      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-3 my-3 border-top">
         <p>&copy; 2023 ERT Software and Marketing Services Ltd, Inc. All rights reserved.</p>
-        <ul class="list-unstyled d-flex">
-          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-                <use xlink:href="#twitter" /></svg></a></li>
-          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-                <use xlink:href="#instagram" /></svg></a></li>
-          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-                <use xlink:href="#facebook" /></svg></a></li>
-        </ul>
+        <div class="stripe-logo">
+          <a href="https://stripe.com" target="_blank">
+            <img src="https://thumbs.bfldr.com/at/8vbr8k4mr5xjwk4hxq4t9vs?expiry=1687607405&fit=bounds&height=800&sig=YWE1ZDI4NGE2ZmZmODFjOTUyMzk5NjZhMzY0YjUyNDUyZjlhYzA5Mg%3D%3D&width=1100" alt="Stripe Logo" style="height: 50px;">
+          </a>
+        </div>
       </div>
+
     </footer>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -428,7 +424,5 @@
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js" crossorigin="anonymous">
   </script>
-
 </body>
-
 </html>>

@@ -68,3 +68,12 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+
+.stripe-logo {
+  width: 25px; /* Genişlik */
+  height: auto; /* Yükseklik */
+}
+
+.btn-primary a {
+  color: white !important;
+}
